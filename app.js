@@ -12,7 +12,7 @@ const ExpressError = require('./utils/ExpressError');
 const flash=require('connect-flash');
 const passport=require('passport');
 const LocalStrategy=require('passport-local')
-const User = require('./models/User');
+const User = require('./models/user');
 const mongoSanitize = require('express-mongo-sanitize');
 const MongoStore = require('connect-mongo');
 
