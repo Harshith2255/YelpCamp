@@ -4,7 +4,7 @@ const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 
 
-mongoose.connect('mongodb://localhost:27017/YelpCamp',{
+mongoose.connect( 'mongodb://localhost:27017/YelpCamp',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 });
@@ -19,11 +19,11 @@ const sample= array => array[Math.floor(Math.random()*array.length)]
 
 const seedDB=async()=>{
     await Campground.deleteMany({});
-    for (let i = 0;i<=80;i++ ){
+    for (let i = 0;i<=75;i++ ){
         const random400=Math.floor(Math.random()*400);
         const price=Math.floor(Math.random()*5000)+1000;
         const camp= new Campground({
-            author:'62be9c4b63424c2ca5baa239',
+            author:'62bebce89f932e041a1dace4',
             location:`${cities[random400].city}, ${cities[random400].admin_name}`,
             geometry:{
               type:'Point',
