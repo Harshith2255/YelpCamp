@@ -3,7 +3,7 @@
 > A Node.js web application project 
 ## Live Demo
 
-To see the app in action, click [here](https://maple-sorry-46383.herokuapp.com/)
+To see the app in action, click [here](https://yelpcamp-production-54bb.up.railway.app/)
 
 ## Features
 
