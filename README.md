@@ -53,7 +53,7 @@ To see the app in action, click [here](https://yelpcamp-production-54bb.up.railw
 ### Platforms
 
 * [Cloudinary](https://cloudinary.com/)
-* [Heroku](https://www.heroku.com/)
+* [Railway app](https://railway.app/)
 
 
 
